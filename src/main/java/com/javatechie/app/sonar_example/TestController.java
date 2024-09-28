@@ -32,5 +32,13 @@ public class TestController {
 	public String welcome(@RequestParam String str) {
 		return "welcome message:" + str;
 	}
+	
+	public String dummi(@RequestParam String str) {
+		return "welcome message:" + str;
+	}
+	
+	public String dummy(@RequestParam String str) {
+		return "welcome message:" + str;
+	}
 
 }
